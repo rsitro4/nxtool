@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 
 BASE_URL = os.environ.get(
     'BASE_URL', 
-    'https://nexpose-console.icims.com:3780/api/3/')
+    '')
 
 SECRET_TTL_PATH = os.environ.get(
     'SECRET_TTL_PATH', 
@@ -27,7 +27,7 @@ SECRET_CREATION_PATH = os.environ.get(
 
 NEXPOSE_HOST = os.environ.get(
     'NEXPOSE_HOST',
-    'nexpose-console.icims.com')
+    '')
 
 NEXPOSE_PORT = os.environ.get(
     'NEXPOSE_PORT',
